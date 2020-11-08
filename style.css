@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Barlow;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    width: 350px;
+    height: 510px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 5px 5px 15px -8px #ec1cff;
+}
+
+#title {
+    padding: 20px;
+}
+
+#input {
+    padding: 4px;
+    font-size: 15px;
+    font-family: 'Barlow';
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#icon {
+    padding-top: 20px;
+}
+
+.information-container {
+    background-color: whitesmoke;
+}
+
+#city-picker {
+    padding: 20px 0px 20px 0px;
+}
+
+#submit {
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+#temperature-container {
+    padding: 15px;
+}
+
+#description-container {
+    padding: 10px;
+}
+
+#description {
+    text-transform: capitalize;
+}

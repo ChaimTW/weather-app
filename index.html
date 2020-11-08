@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="title">
+            <h2>Weather</h2>
+        </div>
+        <div class="information-container">
+            <div id="image-container">
+                <img src="./icons/unknown.png" alt="unknown" id="icon">
+            </div>
+            <div id="temperature-container">
+                <h1><span id="temperature">-</span>°C</h1>
+            </div>
+            <div id="description-container">
+                <h2 id="description">-</h2>
+            </div>
+            <div id="location-container">
+                <h3 id="location">-</h3>
+            </div>
+            <form action="" id="city-picker">
+                <input type="text" id="input" placeholder="Type in city">
+            </form>
+            <button id="submit">Get weather</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
