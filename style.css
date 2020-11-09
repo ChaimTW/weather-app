@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .container {
@@ -13,10 +13,10 @@ body {
     background-color: white;
     text-align: center;
     width: 350px;
-    height: 510px;
+    height: 610px;
     margin: 0 auto;
     margin-top: 20px;
-    box-shadow: 5px 5px 15px -8px #ec1cff;
+    box-shadow: 0px 3px 15px 3px rgba(0,0,0,0.56);
 }
 
 #title {
@@ -37,6 +37,7 @@ body {
 
 .information-container {
     background-color: whitesmoke;
+    width: 100%;
 }
 
 #city-picker {
@@ -44,7 +45,8 @@ body {
 }
 
 #submit {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    margin-top: 15px;
     padding: 5px;
 }
 
@@ -58,4 +60,24 @@ body {
 
 #description {
     text-transform: capitalize;
+}
+
+#user-input {
+    padding: 20px;
+}
+
+#forecast {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 20px;
+    font-family: 'Barlow';
+}
+
+.forecast-icon {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
 }
